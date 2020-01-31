@@ -1,0 +1,106 @@
+ *{
+    box-sizing: border-box;
+    color: black;   
+}
+/* <!-- LOGO --> */
+.container1{
+    margin-left: 3rem;    
+}
+/* <!--Navbar-fique por dentro --> */
+.container2{
+    border: 1px solid black;
+    background-color: #FFC107;
+}
+.nav-link {
+    display: block;
+    padding: .5rem 2.5rem;
+}
+.mb-1, .my-1 {
+    margin-bottom: 0rem!important;
+}
+/* <!-- Navbar-Home --> */
+.container3{
+    border: 1px solid black;
+    background-color: #B2EBF2;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;   
+}
+.mb-3, .my-3 {
+    margin-bottom: 0rem!important;
+}
+.font-home {
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects ;
+}
+/* <!-- Favoritos cachorro&gatos --> */
+
+.img-thumbnail {
+    padding: .20rem;
+    background-color:whitesmoke;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: 13rem;
+}
+.imagens{
+    background-color: #FFFAFA;
+}
+
+.imgcahorro{
+    margin-right: 1.5rem;
+}
+.imggato{
+    margin-left: 1.5rem;
+}
+.container5{
+    background-color: #FFFAFA;
+}
+.logo-frete{
+    margin-left: 2rem;
+}
+
+/* Carousel */
+.container6{
+    background-color: #FFFAFA;
+}
+.w-100 {
+    border: 1px solid black;
+    height: 30rem;
+}
+.container7{
+    height: 3rem;
+}
+/* Footer */
+.container8{
+    background-color: #FFC107;
+}
+.footer-Copyright{
+    margin-top: 1.3rem;
+    margin-bottom: 1.3rem;
+}
+
+.footer-logo{
+    margin-top: 2rem;
+    margin-right: 2rem;
+}
+.row {
+    display: ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0rem;
+    margin-left: 0rem;
+}
+/* Cadastro */
+.button-cadastro {
+    margin-left: 5rem;
+} 
+/* conteudo/favoritosCachorro */
+.section-favoritosCachorroGatos{
+    margin: 1rem 1rem auto 18.5rem;
+}
+.section-favoritosCachorroGatos2{
+    margin: 2rem 1rem 1rem 18.5rem ;
+}
