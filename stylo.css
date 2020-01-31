@@ -5,23 +5,19 @@
 /* <!-- LOGO --> */
 .container1{
     margin-left: 3rem;    
-
 }
 /* <!--Navbar-fique por dentro --> */
 .container2{
     border: 1px solid black;
     background-color: #FFC107;
 }
-
 .nav-link {
     display: block;
     padding: .5rem 2.5rem;
 }
-
 .mb-1, .my-1 {
     margin-bottom: 0rem!important;
 }
-
 /* <!-- Navbar-Home --> */
 .container3{
     border: 1px solid black;
@@ -36,10 +32,8 @@
     color: black;
     text-decoration: none;
     background-color: transparent;
-    -webkit-text-decoration-skip: objects;
+    -webkit-text-decoration-skip: objects ;
 }
-
-
 /* <!-- Favoritos cachorro&gatos --> */
 
 .img-thumbnail {
@@ -92,15 +86,21 @@
     margin-right: 2rem;
 }
 .row {
-    display: -ms-flexbox;
+    display: ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin-right: 0rem;
     margin-left: 0rem;
 }
-
 /* Cadastro */
 .button-cadastro {
-    margin-left: 7rem;
+    margin-left: 5rem;
 } 
+/* conteudo/favoritosCachorro */
+.section-favoritosCachorroGatos{
+    margin: 1rem 1rem auto 18.5rem;
+}
+.section-favoritosCachorroGatos2{
+    margin: 2rem 1rem 1rem 18.5rem ;
+}
