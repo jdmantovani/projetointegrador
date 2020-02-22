@@ -104,3 +104,9 @@
 .section-favoritosCachorroGatos2{
     margin: 2rem 1rem 1rem 18.5rem ;
 }
+/*Fotos*/
+.foto {
+    width:80%;  
+    overflow:hidden;
+    margin-top: 2rem;
+}

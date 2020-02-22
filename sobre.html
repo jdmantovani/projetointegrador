@@ -15,73 +15,62 @@
         <title>Pet Party</title>
 </head>
 <body>
-  <!-- LOGO -->
+<!-- LOGO -->
   <div class="container1" >
     <a href="index.html"><img src="img/logo_recortado.png"  class="rounded float-left border border-dark"width="18%" height="375px" alt="Lógo_o_LOGO_VOLTA"></a>
   </div>
-        <!--Navbar-fique por dentro -->
-      <div class="container2">
-  <nav class="mb-1 navbar navbar-expand-lg navbar-dark info-color">
-  <img src="img/fique por dentro.png" height="75rem" alt="">  
-  <form>
-      <div class="form-row ">
-        <div class="col-auto">
-          <label class="sr-only" for="inlineFormInput">Nome</label>
-          <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Fulano">
+<!--Navbar-->
+        <div class="container2">
+            <nav class="mb-1 navbar navbar-expand-lg navbar-dark info-color">
+                <a class="nav-link active" href="#"><i class="fas fa-search"></i></a>
+                <input type="text" placeholder="Pesquise por um produto" style="width:350px;">  
+              <ul class="nav  ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                      aria-haspopup="true" aria-expanded="false"><i class="fas fa-user " ></i></a>
+                      <div class="dropdown-menu">
+                          <form class="px-4 py-3">
+                            <div class="form-group">
+                              <label for="exampleDropdownFormEmail1">Login</label>
+                              <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@exemplo.com">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleDropdownFormPassword1">Senha</label>
+                              <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Senha">
+                            </div>  
+                            <div class="form-check">
+                              <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                              <label class="form-check-label" for="dropdownCheck">
+                                Remember me
+                              </label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Entrar</button>
+                          </form>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="Registre-se.html">Novo, por aqui? Regitre-se.</a>
+                          <a class="dropdown-item" href="#">Esqueceu a senha?</a>
+                      </div>  
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="fas fa-cart-arrow-down"></i></a>
+                </li>   
+              </ul> 
+                </nav>
+                </div>
+<!-- Navbar-Home -->
+      <div class="container3">
+        <div class="d-flex bd-highlight mb-3">
+          <div class="p-2 bd-highlight"><a class="nav-link active font-home" href="index.html">Home</a></div>
+          <div class="p-2 bd-highlight"><a class="nav-link active font-home" href="temasDeFestas.html">Temas de festas </a></div>
+          <div class="p-2 bd-highlight"><a class="nav-link active font-home" href="#">Decoração</a></div>
+          <div class="p-2 bd-highlight"><a class="nav-link active font-home" href="#">Presentes</a></div>
+          <div class="ml-auto p-2 bd-highlight"><a class="nav-link active font-home" href="#">Sobre o Buffet</a></div>
         </div>
-        <div class="col-auto">
-          <label class="sr-only" for="inlineFormInputGroup">Usuário</label>
-          <div class="input-group mb-2">
-            <div class="input-group-prepend">
-              <div class="input-group-text">@</div>
-            </div>
-            <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Usuário">
-          </div>
-        </div>
-        <div class="col-auto">
-          <button type="submit" class="btn btn-primary mb-2">Enviar</button>
-        </div>
-      </div>
-    </form>
-    <ul class="nav  ml-auto">
-      <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false"><i class="fas fa-user " ></i></a>
-            <div class="dropdown-menu">
-                <form class="px-4 py-3">
-                  <div class="form-group">
-                    <label for="exampleDropdownFormEmail1">login</label>
-                    <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@exemplo.com">
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleDropdownFormPassword1">Senha</label>
-                    <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Senha">
-                  </div>
-                  <div class="form-check">
-                    <input type="checkbox" class="form-check-input" id="dropdownCheck">
-                    <label class="form-check-label" for="dropdownCheck">
-                      Remember me
-                    </label>
-                  </div>
-                  <button type="submit" class="btn btn-primary">Entrar</button>
-                </form>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Novo, por aqui? Regitre-se.</a>
-                <a class="dropdown-item" href="#">Esqueceu a senha?</a>
-            </div>  
-      <li class="nav-item">
-        <a class="nav-link active" href="#"><i class="fas fa-search"></i></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#"><i class="fas fa-cart-arrow-down"></i></a>
-      </li>   
-    </ul> 
-      </nav>
-      </div>
-      <!-- section -->
-        <section style="background-color: #B2EBF2;">
+  </div>
+
+<!-- Sobre -->
+        <section style="background-color: whitesmoke;">
             <div class="registro d-flex justify-content-center ">
-        <form class="text-center p-5 " style="background-color: #B2EBF0;" action="#!">
+        <form class="text-center p-5 " style="background-color: whitesmoke;" action="#!">
         <p class="h4 mb-4 mt-0 ml-2">Sobre Nós</p> 
           <div class="form-row mb-4 ">
              <h3>
@@ -96,6 +85,32 @@
           </div>
           </div>
           </section>
+ <!--Section Fique por dentro-->
+<section style="background-color: #B2EBF2">
+    <div class="container">
+      <img src="img/fique por dentro.png" height="55rem" alt="">  
+      <form>
+          <div class="form-row">
+            <div class="col-auto">
+              <label class="sr-only" for="inlineFormInput">Nome</label>
+              <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Fulano">
+            </div>
+            <div class="col-auto">
+              <label class="sr-only" for="inlineFormInputGroup">Usuário</label>
+              <div class="input-group mb-2">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">@</div>
+                </div>
+                <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Usuário">
+              </div>
+            </div>
+            <div class="col-auto">
+              <button type="submit" class="btn btn-primary mb-2">Enviar</button>
+            </div>
+          </div>
+        </form>
+    </div>
+  </section>
  <!-- Footer  -->
  <footer class="container8">
     <div class="row">
