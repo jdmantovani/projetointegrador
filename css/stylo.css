@@ -6,7 +6,7 @@
 .container1{
     margin-left: 3rem;    
 }
-/* <!--Navbar-fique por dentro --> */
+/* <!--Navbar--> */
 .container2{
     border: 1px solid black;
     background-color: #FFC107;
@@ -74,6 +74,7 @@
 }
 /* Footer */
 .container8{
+    border: 1px solid black;
     background-color: #FFC107;
 }
 .footer-Copyright{
@@ -109,4 +110,10 @@
     width:80%;  
     overflow:hidden;
     margin-top: 2rem;
+}
+/*Fique por dentro*/
+.fique_por_dentro
+{
+    border: 1px solid black;
+    background-color: #B2EBF2
 }
