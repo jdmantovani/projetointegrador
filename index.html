@@ -1,179 +1,723 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <!-- Meta tags Obrigatórias -->
-            <meta charset="utf-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-            <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <!-- script-Icones -->
-            <script src="https://kit.fontawesome.com/f7c3018ae1.js" crossorigin="anonymous"></script>
-        <!-- link-FAVICON -->
-            <link rel="shortcut icon" href="img/logo_aba.png" />
-        <!-- Bootstrap CSS -->
-           <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-           <link rel="stylesheet" href="css/stylo.css">    
-        <title>Pet Party</title>
-</head>
-<body>
-  <!-- LOGO -->
-  <div class="container1" >
-    <a href="index.html"><img src="img/logo_recortado.png"class="rounded float-left border border-dark"width="18%" height="375px" alt="Lógo_o_LOGO_VOLTA"></a>
-  </div>
-        <!--Navbar-->
-        <div class="container2">
-          <nav class="mb-1 navbar navbar-expand-lg navbar-dark info-color">
-              <a class="nav-link active" href="#"><i class="fas fa-search"></i></a>
-              <input type="text" placeholder="Pesquise por um produto" style="width:350px;">  
-            <ul class="nav  ml-auto">
-              <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false"><i class="fas fa-user " ></i></a>
-                    <div class="dropdown-menu">
-                        <form class="px-4 py-3">
-                          <div class="form-group">
-                            <label for="exampleDropdownFormEmail1">Login</label>
-                            <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@exemplo.com">
-                          </div>
-                          <div class="form-group">
-                            <label for="exampleDropdownFormPassword1">Senha</label>
-                            <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Senha">
-                          </div>  
-                          <div class="form-check">
-                            <input type="checkbox" class="form-check-input" id="dropdownCheck">
-                            <label class="form-check-label" for="dropdownCheck">
-                              Remember me
-                            </label>
-                          </div>
-                          <button type="submit" class="btn btn-primary">Entrar</button>
-                        </form>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="Registre-se.html">Novo, por aqui? Registre-se.</a>
-                        <a class="dropdown-item" href="#">Esqueceu a senha?</a>
-                    </div>  
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-cart-arrow-down"></i></a>
-              </li>   
-            </ul> 
-              </nav>
-              </div>
-              <!-- Navbar-Home -->
-      <div class="container3">
-        <div class="d-flex bd-highlight mb-3">
-          <div class="p-2 bd-highlight"><a class="nav-link active font-home" href="index.html">Home</a></div>
-          <div class="p-2 bd-highlight"><a class="nav-link active font-home" href="temasDeFestas.html">Temas de festas </a></div>
-          <div class="p-2 bd-highlight"><a class="nav-link active font-home" href="#">Decoração</a></div>
-          <div class="p-2 bd-highlight"><a class="nav-link active font-home" href="#">Presentes</a></div>
-          <div class="p-2 bd-highlight"><a class="nav-link active font-home" href="faq.html">FAQ</a></div>
-          <div class="ml-auto p-2 bd-highlight"><a class="nav-link active font-home" href="sobre.html">Sobre o Buffet</a></div>
-        </div>
-  </div>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- link-FAVICON -->
+     <link rel="shortcut icon" href="img/logo_aba.png" />
+    
+   <!-- css_bootstrap -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- Animate-aos -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
- <!-- Favoritos cachorro&gatos -->
-  <div class="container4">
-    <section class="imagens">
-      <br>      
-      <div class="d-flex justify-content-center">
-        <div class="imgcahorro" ><h5 class="text-center"><img src="img/982898110.ico" alt="..." class="rounded"> Favoritos Cachorros </h5>
-          <a href="favoritosCachorros.html"><img src="img/cachorro2.jpeg" width="240rem" alt="..." class="img-thumbnail"></a>
-          <a href="favoritosCachorros.html"><img src="img/cachorro3.jpg" width="240rem" alt="..." class="img-thumbnail"></a>         
-        </div >
-        <div class="imggato"><h5 class="text-center"><img src="img/9470gatoss.ico" alt="..." class="rounded"> Favoritos Gatos </h5>
-          <a href="favoritosGatos.html"><img src="img/gatos1.jpg" width="240rem" alt="..." class="img-thumbnail"></a>
-         <a href="favoritosGatos.html"><img src="img/gatos2.jpg" width="240rem" alt="..." class="img-thumbnail"></a>        
-        </div >
-      </div>
-    </section>
-  </div>   
-  <!-- logo-Frete -->
-  <div class="container5">
-<img src="img/Frete.png" width="200rem" class="logo-frete"alt="logo"> 
-  </div>
-    <!-- Carousel -->
-    <div class="container6">
-      <h1 class="text-center">Presentes em Destaque</h1>
-      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="img/gatos2.jpg" alt="Primeiro Slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="img/gatos2.jpg" alt="Segundo Slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="img/gatos2.jpg" alt="Terceiro Slide">
-          </div>
+   <!-- google_fonts -->
+   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Anton|Baloo|Bebas+Neue|Niconne|Permanent+Marker&display=swap" rel="stylesheet">
+
+   
+   
+   <!-- Font Awesome JS -->
+    <script src="https://kit.fontawesome.com/f7c3018ae1.js" crossorigin="anonymous"></script>
+    
+   <!-- link css -->
+    <link rel="stylesheet" href="stylo.css">
+    <link rel="stylesheet" href="registro.css">
+    <link rel="stylesheet" href="login.css">
+    <title>Pety Party</title>
+</head>
+
+    <body>
+        <!-- sub_header -->
+      <div class="sub_header">
+        <div class="container">
+            <div class="row align-items-center">
+              <div class="col-4 col-md-4 col-xl-6">
+                  <div id="logo">
+                      <a href="index.html"><img src="img/logo_footer.png" style="width: 5rem;"  alt="" title=""></a>
+                  </div>
+              </div>
+              <div class="col-8 col-md-8 col-xl-6 ">
+                  <div class="sub_header_social_icon float-right">
+                    <a href="#"><i class="fab fa-whatsapp"></i></i>+02 213 - 256 (365)</a>
+                    <a href="#" class="btn_1  d-md-inline-block">Contato</a>
+                  </div>
+                </div>
+            </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-          <div class="carousel-control-prev-icon" aria-hidden="true"></div>
-          <div class="sr-only">Anterior</div>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-          <div class="carousel-control-next-icon" aria-hidden="true"></div>
-          <div class="sr-only">Próximo</div>
-        </a>
+    </div>
+    <!-- Sub-header-fim -->
+
+            <!-- Header -->
+        <div class="w3-light-grey w3-animate-opacity color-nav ">         
+            <nav class="navbar navbar-expand-lg navbar-light d-flex align-items-end ">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+                    aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <div class=" collapse navbar-collapse  " id="conteudoNavbarSuportado">
+                    <ul class="navbar-nav mr-auto"style="font-family: 'Montserrat',sans-serif;">
+                        <li class="nav-item active" style="margin-right: 10px;">
+                            <a class="nav-link font-nav" title="Inicio" href="#">Home <span class="sr-only">(página
+                                    atual)</span></a>
+                        </li>
+                        <li class="nav-item" style="margin-right: 10px;">
+                            <a class="nav-link font-nav" title="Quem somos" href="#">Sobre Nós</a>
+                        </li>
+                        <li class="nav-item" style="margin-right: 5px;">
+                            <a class="nav-link font-nav" title="FAQ" href="#">F.A.Q</a>
+                        </li>                      
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle font-nav" href="#" id="navbarDropdown" role="button"
+                              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Serviços
+                          </a>
+                          <div class="dropdown-menu color-nav" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item font-nav" href="#">Alimentos</a>
+                              <a class="dropdown-item font-nav" href="#">Ambientes</a>
+                              <a class="dropdown-item font-nav" href="#">Decorações</a>
+                              <a class="dropdown-item font-nav" href="#">Produtos</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item font-nav" href="#">Parceiros</a>
+                          </div>
+                      </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle font-nav" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Login
+                            </a>
+                            <div class="dropdown-menu color-nav" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item font-nav" href="login.html">login</a>
+                              <a class="dropdown-item font-nav" href="registro.html">Cadastre-se</a>
+                              </div>
+                        </li>
+                        <li class="nav-item " style="margin-right: 5px;">
+                            <a class="nav-link font-nav"  href="#"><i class="fas fa-cart-arrow-down" >Compras</i></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>       
+          </div>
+            <!----- Header-fim ----->
+
+  <!-- banner part start-->
+  <section class="banner_part">
+    <div class="container">
+        <div class="row align-content-center">
+            <div class="col-lg-7 col-xl-6">
+                <div class="banner_text">
+                    <h5>Bem Vindo ao Pety Party</h5>
+                    <h1>Compartilhe com seu pety
+                        os melhores momentos</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- sobre-nos start-->  
+<section class="sobre-nos">
+  <div class="container">
+    <div class="row ">
+      <div class="sobre-nos-img col-md-6 ">
+      </div>
+      <div class="sobre-nos-text col-md-5">
+        <h3>Reuniões,Festas ou
+            Eventos.</h3>
+        <p>Aqui no Pet Party,proporcionaremos todo carinho e atenção que seu pety merece 
+          e que voce com certeza gostaria que ele recebe-se! </p>
+        <div class="">
+          <a href="#" class="btn_1 btn btn-lg ">Sobre Nós</a>
+        </div>
       </div>
     </div>
-    <!--Section Fique por dentro-->
-    <section class="fique_por_dentro">
-      <div class="container">
-        <img src="img/fique por dentro.png" height="55rem" alt="">  
-        <form>
-            <div class="form-row">
-              <div class="col-auto">
-                <label class="sr-only" for="inlineFormInput">Nome</label>
-                <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Fulano">
-              </div>
-              <div class="col-auto">
-                <label class="sr-only" for="inlineFormInputGroup">Usuário</label>
-                <div class="input-group mb-2">
-                  <div class="input-group-prepend">
-                    <div class="input-group-text">@</div>
-                  </div>
-                  <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Usuário">
-                </div>
-              </div>
-              <div class="col-auto">
-                <button type="submit" class="btn btn-primary mb-2">Enviar</button>
-              </div>
-            </div>
-          </form>
-      </div>
-    </section>
+  </div>
+</section>
 
-    <!-- Footer  -->
-    <footer class="container8">
+
+<!-- ========nossos-servicos=========== -->
+<div class="nossos-servicos ">
+  <section class="site-section " id="services-section">
+    <div class="container">
+      <div class="row justify-content-center" data-aos="fade-up">
+        <div class="col-lg-6 text-center heading-section mb-5">
+          <a href="#"><h2 class=" mb-2">Nossos Serviços</h2></a>
+          <p>Possuímos parceiros das mais diversas áreas, para que lhe proporcione maior suporte e comodidade.</p>
+        </div>
+      </div>
       <div class="row">
-        <div class="col-sm">
+        <div class="col-md-6 mb-4 col-lg-4" data-aos="fade-up" data-aos-delay="">
+          
+          <div class="block_service">
+            <span class="icon-paw d-block display-3 text-primary mb-3"><img src="img/spa_dog.jpg" alt="..." class="img-thumbnail"></span>
+            <h3>Spa´s</h3>
+            <p>Procedimentos de relaxamento,estéticos e emagrecimento são alguns dos serviços oferecidos pelos Spa´s. </p>
+          </div>
+  
         </div>
-        <div class="col-md-auto text-center footer-Copyright">
-          <h6 class="mb-0">© 2020 Copyright:Pety Party| Pety Party S.A. <br> CNPJ 12.345.678./0001-00 Rua do pet-Vila dos Animais,SP | CEP 00000-000</h6>
+        <div class="col-md-6 mb-4 col-lg-4" data-aos="fade-up"  data-aos-delay="100">
+          <div class="block_service">
+            <span class="icon-paw d-block display-3 text-primary mb-3"><img src="img/hoteis_servicos.jpg" alt="..." class="img-thumbnail"></span>
+            <h3>Hotéis</h3>
+            <p>Caso necessite de hospedagem serviços de hotéis com estrutura completa para atender seu pet. você encontra aqui! </p>
+          </div>
         </div>
-        <div class="col-sm d-flex justify-content-end footer-logo ">
-          <a class="fb-ic" href="#">
-            <i class="fab fa-facebook-f white-text mr-4"> </i>
-          </a>
-          <a class="tw-ic"  href="#">
-            <i class="fab fa-twitter white-text mr-4"> </i>
-          </a>
-          <a class="gplus-ic"  href="#">
-            <i class="fab fa-google-plus-g white-text mr-4"> </i>
-          </a>
-          <a class="li-ic" href="#">
-            <i class="fab fa-linkedin-in white-text mr-4"> </i>
-          </a>
-          <a class="ins-ic" href="#">
-            <i class="fab fa-instagram white-text"> </i>
-          </a>        
+        <div class="col-md-6 mb-4 col-lg-4" data-aos="fade-up"  data-aos-delay="200">
+          <div class="block_service">
+            <span class="icon-paw d-block display-3 text-primary mb-3"><img src="img/adotar_servicos.webp" alt="..." class="img-thumbnail"></span>
+            <h3>Adote um Amigo</h3>
+            <p>Possuimos um canal para adoção,com muitos amigos(a) que necessitam de um lar! </p>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4 col-lg-4" data-aos="fade-up"  data-aos-delay="">
+          
+          <div class="block_service">
+            <span class="icon-paw d-block display-3 text-primary mb-3"><img src="img/petdrivers_servicos.jpg" alt="..." class="img-thumbnail"></span>
+            <h3>Pet Drivers</h3>
+            <p>Motoristas com automoveis preparados estão prontos a qualquer hora e lugar. </p>
+          </div>
+  
+        </div>
+        <div class="col-md-6 mb-4 col-lg-4" data-aos="fade-up"  data-aos-delay="100">
+          <div class="block_service">
+            <span class="icon-paw d-block display-3 text-primary mb-3"><img src="img/clinicas_servicos.jpeg" alt="..." class="img-thumbnail"></span>
+            <h3>Clínicas Veterináiras</h3>
+            <p>Nos preocupamos com a saúde de seu pet. tanto quanto você! </p>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4 col-lg-4" data-aos="fade-up"  data-aos-delay="200">
+          <div class="block_service">
+            <span class="icon-paw d-block display-3 text-primary mb-3"><img src="img/petshops_servicos.jpg" alt="..." class="img-thumbnail"></span>
+            <h3>Pet Shops</h3>
+            <p>Precisando de algum produto ou marca especifica,de uma olhada em alguns dos pet shop's parceiros. </p>
+          </div>
         </div>
       </div>
+    </div>
+  </section>
+
+</div>
+
+
+<!-- ------carousel-Eventos & Reunioes----- -->
+
+
+<!-- ------TITULO-carousel-Eventos & Reunioes----- -->
+<div class="container eventos-reunioes-titulo">
+  <div class="row mb-2">
+      <div class="col-12 text-center pt-3">
+        <a href="#">
+          <h2>Eventos & Reuniões</h2>
+        </a>
+          <p>Possuimos um suporte completo para festas e eventos,que incluem decoração,ambientação,comes e bebes e mais</p>
+      </div>
+  </div>
+</div>
+  <!-- ------carousel-Eventos & Reunioes Esquerdo----- -->
+  <div class="row eventos-reunioes">
+      <div class="col-12 pb-5">
+          <section class="row">
+              <div class="col-12 col-md-6 pb-0 pb-md-3 pt-2 pr-md-1">
+                  <div id="featured" class="carousel slide carousel" data-ride="carousel">
+                
+                      <ol class="carousel-indicators top-indicator">
+                          <li data-target="#featured" data-slide-to="0" class="active"></li>
+                          <li data-target="#featured" data-slide-to="1"></li>
+                          <li data-target="#featured" data-slide-to="2"></li>
+                          <li data-target="#featured" data-slide-to="3"></li>
+                      </ol>
+                      
+                     
+                      <div class="carousel-inner">                        
+                          <div class="carousel-item active">
+                              <div class="card border-0 rounded-0 text-light overflow zoom">
+                                  <div class="position-relative">                                  
+                                      <div class="ratio_left-cover-1 image-wrapper">
+                                          <a href="#">
+                                              <img class="img-fluid w-100" src="img/img_carousel_lateral3.jpg" alt="Bootstrap news template">
+                                          </a>
+                                      </div>
+                                      <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                              <h2 class="h3 post-title text-white my-1">Decorações e temas para seus eventos.</h2>
+                                          </a>
+                                          <div class="news-meta">
+                                              <span class="news-author">Fotografia de <a class="text-white font-weight-bold" href="#">Luiza</a></span>
+                                              <span class="news-date">22 janeiro 2020</span>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          
+                          <div class="carousel-item">
+                              <div class="card border-0 rounded-0 text-light overflow zoom">
+                                  <div class="position-relative">
+                                      <div class="ratio_left-cover-1 image-wrapper">
+                                          <a href=#>
+                                              <img class="img-fluid w-100"
+                                                   src="img/img_carousel4.jpg"
+                                                   alt="Bootstrap news theme">
+                                          </a>
+                                      </div>
+                                      <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                              <h2 class="h3 post-title text-white my-1">Temas anos 80?Escolha um tema para suas fetas!</h2>
+                                          </a>
+                                          <div class="news-meta">
+                                            <span class="news-author">Fotografia de <a class="text-white font-weight-bold" href="#">Luiza</a></span>
+                                            <span class="news-date">22 janeiro 2020</span>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          
+                          <div class="carousel-item">
+                              <div class="card border-0 rounded-0 text-light overflow zoom">
+                                  <div class="position-relative">
+                                      <div class="ratio_left-cover-1 image-wrapper">
+                                          <a href="#">
+                                              <img class="img-fluid w-100"
+                                                   src="img/imag_carousel_lateral2.jpg"
+                                                   alt="Bootstrap blog template">
+                                          </a>
+                                      </div>
+                                      <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                              <h2 class="h3 post-title text-white my-1">Aniversariante do mes é a cachorrinha MEL! Parabéns pelos seus 2 anos de vida!  </h2>
+                                          </a>
+                                          <div class="news-meta">
+                                              <span class="news-author">Fotografia de  <a class="text-white font-weight-bold" href="../category/author.html">Luiza</a></span>
+                                              <span class="news-date">22 janeiro 2020</span>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          
+                          <div class="carousel-item">
+                              <div class="card border-0 rounded-0 text-light overflow zoom">
+                                  <div class="position-relative">
+                                      <div class="ratio_left-cover-1 image-wrapper">
+                                          <a href="#">
+                                              <img class="img-fluid w-100"
+                                                   src="img/img_carousel_lateral3.jpg"
+                                                   alt="Bootstrap portal template">
+                                          </a>
+                                      </div>
+                                      <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                            <h2 class="h3 post-title text-white my-1">Decorações e temas para seus eventos.</h2>
+                                        </a>
+                                        <div class="news-meta">
+                                            <span class="news-author">Fotografia de <a class="text-white font-weight-bold" href="#">Luiza</a></span>
+                                            <span class="news-date">22 janeiro 2020</span>
+                                        </div>
+                                    </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  
+                  <a class="carousel-control-prev" href="#featured" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#featured" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                  </a>
+              </div>
+ <!-- ------FIM-carousel-Eventos & Reunioes Esquerto------->
+             
+
+              <!-- ------carousel-Eventos & Reunioes Direito ----- -->
+
+              <div class="col-12 col-md-6 pt-2 pl-md-1 mb-3 mb-lg-4">
+                  <div class="row">
+                      <div class="col-6 pb-1 pt-0 pr-1">
+                          <div class="card border-0 rounded-0 text-white overflow zoom">
+                              <div class="position-relative">
+                                  <div class="ratio_right-cover-2 image-wrapper">
+                                      <a href="#">
+                                          <img class="img-fluid"
+                                               src="img/carousel_eventos.jpg"
+                                               alt="simple blog template bootstrap">
+                                      </a>
+                                  </div>
+                                  <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                      <a class="p-1 badge badge-primary rounded-0" href="#">Alimentos</a>
+                                          <h2 class="h5 text-white my-1">Cerveja boa para Cachorro !</h2>
+                                      </a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>           
+
+                      <div class="col-6 pb-1 pl-1 pt-0">
+                          <div class="card border-0 rounded-0 text-white overflow zoom">
+                              <div class="position-relative">
+                                  <div class="ratio_right-cover-2 image-wrapper">
+                                    <a href="">
+                                      <img class="img-fluid"
+                                           src="img/carousel_eventos5.jpg"
+                                           alt="bootstrap templates for blog">
+                                    </a>
+                                  </div>
+                                  <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                      <a class="p-1 badge badge-primary rounded-0" href="#">Produtos</a>
+                                        <h2 class="h5 text-white my-1">Lembrancinhas para seus convidados.</h2>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      
+                      <div class="col-6 pb-1 pr-1 pt-1">
+                          <div class="card border-0 rounded-0 text-white overflow zoom">
+                              <div class="position-relative">
+                                  <div class="ratio_right-cover-2 image-wrapper">
+                                      <a href="#">
+                                          <img class="img-fluid"
+                                               src="img/carousel_eventos2.jpg"
+                                               alt="bootstrap blog wordpress theme">
+                                      </a>
+                                  </div>
+                                  <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                      <a class="p-1 badge badge-primary rounded-0" href="#">Alimento</a>                                  
+                                          <h2 class="h5 text-white my-1">Alimentos preparados especialmente para seu parceiro(a).</h2>
+                                      </a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      
+                      <div class="col-6 pb-1 pl-1 pt-1">
+                          <div class="card border-0 rounded-0 text-white overflow zoom">
+                              <div class="position-relative">
+                                  <div class="ratio_right-cover-2 image-wrapper">
+                                      <a href="#">
+                                          <img class="img-fluid"
+                                               src="img/carousel_eventos3.jpg"
+                                               alt="blog website templates bootstrap">
+                                      </a>
+                                  </div>
+                                  <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                      <a class="p-1 badge badge-primary rounded-0" href="#">Alimento</a>               
+                                          <h2 class="h5 text-white my-1">Doces e salgados para seus eventos</h2>
+                                      </a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </section>
+      </div>
+  </div>
+  <!--end code-->
+  
+<!-- ------ Fim-carousel-Eventos & Reunioes----- -->
+
+
+
+<!------- Carousel-produtos------->
+  
+<!------- Carousel-produtos Titulo------->
+<div class="container">
+  <div class="row mb-2">
+      <div class="col-12 text-center pt-3">
+        <a href="#">
+          <h2>Produtos</h2>
+        </a>
+          <h4>Precisando de alguma coisa especial ? De uma olhada nos nossos produtos! </h4>
+      </div>
+  </div>
+</div>
+
+
+<!------ banner frete gratis---->
+
+  <div class="banner-fretegratis">
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="single-benefit">
+                <div class="sb-icon">
+                    <img src="img/icon-1.png" alt="">
+                </div>
+                <div class="sb-text">
+                    <h6>Frete Gratis</h6>
+                    <p>Valore acima de R$ 200,00 (Duzentos Reais).</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="single-benefit">
+                <div class="sb-icon">
+                    <img src="img/icon-2.png" alt="">
+                </div>
+                <div class="sb-text">
+                    <h6>Entregas com horario marcado</h6>
+                    <p>Agende sua entrega</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="single-benefit">
+                <div class="sb-icon">
+                    <img src="img/icon-3.png" alt="">
+                </div>
+                <div class="sb-text">
+                    <h6>Segurança com seus dados</h6>
+                    <p>100% seguro</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+ <!-- Seu espaço inicio -->
+ <div class="seu-espaco">
+
+   <section class="container-fluid latest-blog spad">
+  
+   <!-- Seu espaço Titulo -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-titulo">
+                  <h2>Seu Espaço</h2>
+                </div>
+            </div>
+        </div>
+  
+  <!-- Seu espaço comentarios -->
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="seu-espaco-comentarios ">
+                  <div class="fotoespaco_cliente ">
+                    <img src="img/img_cliente.png" alt="..." class="img-thumbnail">
+                  </div>
+                    <div class="seu-espaco-comentarios">
+                        <div class="tag-list">
+                            <div class="tag-item">
+                                <i class="fa fa-calendar-o"></i>
+                                janeiro 4,2020
+                            </div>
+                            <div class="tag-item">
+                                <i class="fa fa-comment-o"></i>
+                                5
+                            </div>
+                        </div>
+                        <a href="#">
+                            <h4>Foi uma festa inesquecivel</h4>
+                        </a>
+                        <p>Pontual,organizado divertido </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="seu-espaco-comentarios">
+                  <div class="fotoespaco_cliente">
+                    <img src="img/img_cliente.png" alt="..." class="img-thumbnail">
+                  </div>
+                    <div class="seu-espaco-comentarios">
+                        <div class="tag-list">
+                            <div class="tag-item">
+                                <i class="fa fa-calendar-o"></i>
+                               janeiro 4,2020
+                            </div>
+                            <div class="tag-item">
+                                <i class="fa fa-comment-o"></i>
+                                5
+                            </div>
+                        </div>
+                        <a href="#">
+                            <h4>Muito divertido,
+                                recomendo</h4>
+                        </a>
+                        <p>Excelente ambiente,organizados  </p>
+                    </div>
+                </div>
+            </div>
+              <div class="col-lg-4 col-md-6 fotoespaco_cliente3">
+                  <div class="seu-espaco-comentarios">
+                    <div class="fotoespaco_cliente">
+                      <img src="img/img_cliente.png" alt="..." class="img-thumbnail">
+                    </div>
+                      <div class="seu-espaco-comentarios">
+                          <div class="tag-list">
+                              <div class="tag-item">
+                                  <i class="fa fa-calendar-o"></i>
+                                  janeiro 4,2020
+                              </div>
+                              <div class="tag-item">
+                                  <i class="fa fa-comment-o"></i>
+                                  5
+                              </div>
+                          </div>
+                          <a href="#">
+                              <h4>Gostamos dos serviços</h4>
+                          </a>
+                          <p>Serviço de transporte excelente,
+                              motorista atencioso carro limpo! </p>
+                      </div>
+                  </div>
+              </div>
+        </div>
+  </section>
+ </div>
+
+
+
+<!-- ------footer---------- -->
+<div class="footer">
+  <footer class="newsletter">
+    <div class="container">
+    <div class="row">
+    <div class="col-sm-12">
+      <div class="content">
+        <h2>Receba nossas atualizações</h2>
+      <div class="input-group">
+             <input type="email" class="form-control" placeholder="Digite seu Email">
+             <span class="input-group-btn">
+             <button class="btn" type="submit">Inscreva-se</button>
+             </span>
+              </div>
+      </div>
+    </div>
+    </div>
+    </div>
     </footer>
+    <hr>
+  <footer class="page-footer font-small stylish-color-dark ">
+    <div class="container text-center text-md-left">
+  
+      <div class="row">
+  
+        <div class="col-md-4 mx-auto">     
+            <div class="logo_footer">
+            <a href="index.html"><img src="img/logo_footer.png" style="width: 7rem;"  alt="" title=""></a>
+            </div>
+        </div>
+      
+        <hr class="clearfix w-100 d-md-none">
+  
+        <div class="col-md-2 mx-auto">
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Serviços</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Alimentos</a>
+            </li>
+            <li>
+              <a href="#!">Ambiente</a>
+            </li>
+            <li>
+              <a href="#!">Produtos</a>
+            </li>
+          </ul>
+        </div>
+        <hr class="clearfix w-100 d-md-none">
+        <div class="col-md-2 mx-auto">
+  
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Ajuda</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">F.A.Q</a>
+            </li>
+            <li>
+              <a href="#!">Cancelamentos</a>
+            </li>
+            <li>
+              <a href="#!">Troca</a>
+            </li>
+          </ul>
+  
+        </div>
+  
+  
+        <hr class="clearfix w-100 d-md-none">
+  
+  
+        <div class="col-md-2 mx-auto">
+  
+  
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Ajuda</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">F.A.Q</a>
+            </li>
+            <li>
+              <a href="#!">Cancelamentos</a>
+            </li>
+            <li>
+              <a href="#!">Troca</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  
+    <hr>
+    
+    <ul class="list-unstyled list-inline text-center">
+      <li class="list-inline-item">
+        <a class="btn-floating btn-fb mx-1 text-dark" href="#">
+          <i class="fab fa-facebook-f"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-tw mx-1 text-dark" href="#">
+          <i class="fab fa-twitter"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-gplus mx-1 text-dark" href="#">
+          <i class="fab fa-google-plus-g"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-li mx-1 text-dark" href="#">
+          <i class="fab fa-linkedin-in"> </i>
+        </a>
+      </li>
+  
+    </ul>
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:Pety Party| Pety Party S.A. 
+        CNPJ 12.345.678./0001-00 Rua do pet-Vila 
+        dos Animais,SP | CEP 00000-000
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+</div>
 
+
+
+
+   
+          <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+          <script>
+            AOS.init();
+          </script>
+           <!-- jQuery CDN - Slim version (=without AJAX) -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <!-- Popper.JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+        <!-- Bootstrap JS -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    
+
+    
 </body>
 </html>
-
-
