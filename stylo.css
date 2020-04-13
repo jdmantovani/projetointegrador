@@ -177,7 +177,6 @@
   font-weight: bold;
 }
 .navbar-toggler{
-  /* background-color: rgba(202, 112, 27, 0.8);  */
   background-color: rgba(253, 235, 230); 
 
 }
@@ -199,7 +198,6 @@
 @media (max-width: 576px) {
   .banner_part {
     height: 300px;
-    /* background-image: none; */
     background-position: right;
   }
 }
@@ -374,7 +372,7 @@
 /* ********responsive-about********* */
 @media (max-width:320px){
   .sobre-nos-img{    
-    height: 500px;
+    height: 400px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -388,19 +386,20 @@
   .sobre-nos-text h3{
     line-height: 58px;
     margin: 25px 0;
-    font-size: 40px;
+    font-size: 30px!important;
     font-weight: 400;
   }
 
 }
-@media only screen and (min-width: 320px) and (max-width: 411px){
+@media only screen and (min-width: 322px) and (max-width: 411px){
 
   .sobre-nos{
-    margin-top: 6em;
-    margin-bottom: 3rem;
+    margin: auto;
+    /* margin-top: 6em;
+    margin-bottom: 3rem; */
   }
   .sobre-nos-img{    
-    height: 500px;
+    height: 450px;
     display: flex;
     align-items: center;
     position: relative;
@@ -455,6 +454,8 @@
   font-weight: 900; 
   
 }
+
+
 
 
 
@@ -585,6 +586,17 @@
   font-weight: 900; 
   
 }
+.heading-section h2:before {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 3px;
+	width: 80px;
+	height: 3px;
+	background: #e7ab3c;
+	content: "";
+	margin: 0 auto;
+} 
 
 /* <!-- ------TITULO-carousel-Eventos & Reunioes----- --> */
 
@@ -598,12 +610,21 @@
   text-transform: uppercase;
   font-weight: 900;
 }
+.eventos-reunioes-titulo h2:before {
+	position: absolute;
+	left: 0;
+  right: 0;
+  bottom: -5px;
+	width: 80px;
+	height: 3px;
+	background: #e7ab3c;
+	content: "";
+	margin: 0 auto;
+}
 
 
 
-
-
-/* =====carousel-produtos====== */
+/* =====carousel-Eventos & Reunioes====== */
 .b-0 {
     bottom: 0;
 }
@@ -633,10 +654,137 @@
     transform: scale(1.1);
 }
 
+
+
+/* ----carousel-produtos----- */
+
+.titulo-carousel-produtos h1{
+  text-transform: capitalize;
+  font-weight: 900; 
+
+}
+.titulo-carousel-produtos h1:before {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -14px;
+	width: 80px;
+	height: 3px;
+	background: #e7ab3c;
+	content: "";
+	margin: 0 auto;
+}
+
+
+@media (max-width:320px){  
+  
+  }
+
+
+
+  .carousel-produtos{
+    margin: auto;
+
+  }
+  .titlebar {
+    overflow: hidden;
+  }
+  
+  .titlebar .next-back {
+    /* float: right;
+    margin: 12px 15px; */
+  justify-content: center;
+  margin-bottom:15px ;
+  }
+  .titlebar .next-back span a {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: Poppins;
+    color: #222222;
+  }
+  .titlebar .next-back span a:hover {
+    text-decoration: none;
+    color: #888888;
+  }
+  .titlebar .next-back span {
+    border-right: 1px solid #000;
+    padding: 0 8px 0 5px;
+    display: inline-block;
+    line-height: 10px;
+  }
+  .titlebar .next-back span:last-child {
+    border-right: none;
+    padding-right: 0;
+  }
+  
+  .carousel-inner > .carousel-item {
+   -webkit-transition: -webkit-transform 1.2s ease-in-out !important;
+   -o-transition: -o-transform 1.2s ease-in-out !important;
+   transition: transform 1.2s ease-in-out !important;
+  } 
+  
+  .carousel {
+    margin-bottom: 0;
+    padding: 0 0 30px 0;
+  }
+  
+  
+  .arrival-product .arrival-item ul {
+    margin: 0;
+    padding: 0;
+    
+  }
+  .arrival-product .arrival-item ul li {
+    float: left;
+    list-style: none;
+    width: 15%;
+    overflow: hidden;
+    margin-right: 2.6%;
+    margin-left: 2.6%;
+  }
+  .arrival-product .arrival-item ul li:last-child {
+    margin-right: 0;
+  }
+ 
+
+.arrival-product .arrival-item ul {
+  margin: 0;
+  padding: 0;
+  
+}
+.arrival-product .arrival-item ul li {
+  float: left;
+  list-style: none;
+  width: 15%;
+  overflow: hidden;
+  margin-right: 2.6%;
+  margin-left: 2.6%;
+}
+.arrival-product .arrival-item ul li:last-child {
+  margin-right: 0;
+}
+.overflow-produtos {
+  position: relative;
+  overflow: hidden;
+}
+.zoom-produtos img {
+  transition: all 0.2s linear;
+}
+.zoom-produtos:hover img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+
+
+/* ----FIM carousel-produtos----- */
+
 /* <!------ banner frete gratis-----> */
+
+
 .banner-fretegratis {
 	border: 1px solid #ebebeb;
-  margin-top: 45px;
   margin: auto;
   width: 90%;
 }
@@ -860,8 +1008,10 @@
   background: rgb(237,230,253);
   background: radial-gradient(circle, rgba(237,230,253,1) 4%, rgba(253,245,230,1) 48%, rgba(253,245,230,1) 90%);
 }
+ 
 
-/* ==========praramos na escolha de um novo carousel para PRODUTOS========= */
+
+/* ==========praramos na enquadramentos do footer (Diminuição dos espaços vazios)========= */
 
 
   
