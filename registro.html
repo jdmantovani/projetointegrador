@@ -21,14 +21,12 @@
     <script src="https://kit.fontawesome.com/f7c3018ae1.js" crossorigin="anonymous"></script>
     
    <!-- link css -->
-    <link rel="stylesheet" href="stylo.css">
-    <link rel="stylesheet" href="registro.css">
-    <link rel="stylesheet" href="login.css">
+   <link rel="stylesheet" href="css/stylo.css">
+   <link rel="stylesheet" href="css/registro.css">
+   <link rel="stylesheet" href="css/produtos.css">
     <title>Pety Party</title>
 </head>
-<body>
-  
-  <div class="registro">
+<body>  
     <!-- sub_header -->
   <div class="sub_header">
     <div class="container">
@@ -48,7 +46,6 @@
     </div>
   </div>
   <!-- Sub-header-fim -->
-  
         <!-- Header -->
     <div class="w3-light-grey w3-animate-opacity color-nav ">         
         <nav class="navbar navbar-expand-lg navbar-light d-flex align-items-end ">
@@ -56,7 +53,6 @@
                 aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
                 <span class="navbar-toggler-icon"></span>
             </button>
-    
             <div class=" collapse navbar-collapse  " id="conteudoNavbarSuportado">
                 <ul class="navbar-nav mr-auto"style="font-family: 'Montserrat',sans-serif;">
                     <li class="nav-item active" style="margin-right: 10px;">
@@ -101,94 +97,77 @@
         </nav>       
       </div>
         <!----- Header-fim ----->
-  
-        <div class="container page-registro">
-          <div class="row">
-            <div class="col-lg-10 col-xl-9 mx-auto">
-              <div class="card card-signin flex-row my-5">
-                <div class="card-img-left d-none d-md-flex">
-                   <!-- Background image for card set in CSS! -->
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title text-center">Register</h5>
-                  <form class="form-signin">
-                    <div class="form-label-group">
-                      <input type="text" id="inputUserame" class="form-control" placeholder="Username" required autofocus>
-                      <label for="inputUserame">Username</label>
-                    </div>
-      
-                    <div class="form-label-group">
-                      <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required>
-                      <label for="inputEmail">Email address</label>
-                    </div>
-                    
-                    <hr>
-      
-                    <div class="form-label-group">
-                      <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-                      <label for="inputPassword">Password</label>
-                    </div>
-                    
-                    <div class="form-label-group">
-                      <input type="password" id="inputConfirmPassword" class="form-control" placeholder="Password" required>
-                      <label for="inputConfirmPassword">Confirm password</label>
-                    </div>
-      
-                    <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Register</button>
-                    <a class="d-block text-center mt-2 small" href="#">Sign In</a>
-                    <hr class="my-4">
-                    <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i class="fab fa-google mr-2"></i> Sign up with Google</button>
-                    <button class="btn btn-lg btn-facebook btn-block text-uppercase" type="submit"><i class="fab fa-facebook-f mr-2"></i> Sign up with Facebook</button>
-                  </form>
-                </div>
+        <div class="Registro form-v6">
+          <div class="page-content">
+            <div class="form-v6-content col-12 col-sm-6 col-md-8  " >
+              <div class="form-left ">
+                <img src="img/banner_bg - Copia.png" alt="form">
               </div>
+              <form class="form-detail " action="#" method="post">
+                <h2>Register Form</h2>
+                <div class="form-row">
+                  <input type="text" name="full-name" id="full-name" class="input-text" placeholder="Your Name" required>
+                </div>
+                <div class="form-row">
+                  <input type="text" name="your-email" id="your-email" class="input-text" placeholder="Email Address" required pattern="">
+                </div>
+                <div class="form-row">
+                  <input type="password" name="password" id="password" class="input-text" placeholder="Password" required>
+                </div>
+                <div class="form-row">
+                  <input type="password" name="comfirm-password" id="comfirm-password" class="input-text" placeholder="Comfirm Password" required>
+                </div>
+                <div class="form-row-last">
+                  <input type="submit" name="register" class="register" value="Register">
+                </div>
+              </form>
             </div>
           </div>
         </div>
-  
-        <!-- ------footer---------- -->
-
-  <div class="footer footer-registro">     
-    <ul class="list-unstyled list-inline text-center">
-      <li class="list-inline-item">
-        <a class="btn-floating btn-fb mx-1 text-dark" href="#">
-          <i class="fab fa-facebook-f"> </i>
-        </a>
-      </li>
-      <li class="list-inline-item">
-        <a class="btn-floating btn-tw mx-1 text-dark" href="#">
-          <i class="fab fa-twitter"> </i>
-        </a>
-      </li>
-      <li class="list-inline-item">
-        <a class="btn-floating btn-gplus mx-1 text-dark" href="#">
-          <i class="fab fa-google-plus-g"> </i>
-        </a>
-      </li>
-      <li class="list-inline-item">
-        <a class="btn-floating btn-li mx-1 text-dark" href="#">
-          <i class="fab fa-linkedin-in"> </i>
-        </a>
-      </li>
-  
-    </ul>
-  
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2020 Copyright:Pety Party| Pety Party S.A. 
-        CNPJ 12.345.678./0001-00 Rua do pet-Vila 
-        dos Animais,SP | CEP 00000-000
-    </div>
-    <!-- Copyright -->
-  
-  </footer>
-  <!-- Footer -->
-  </div>
-
-</body>
+      
 
 
 
 
+
+                    <!-- inscrevase-subscribe inicio -->
+        <div class="inscrevase lf-padding">
+          <div class="inscrevase-area inscrevase-height d-flex align-items-center" data-background="/img/categori/banner_pattern.png">
+              <div class="container ">
+                  <div class="row d-flex align-items-center">
+                      <div class="col-xl-5 col-lg-5 col-md-6 offset-xl-1 offset-lg-1">
+                          <div class="inscrevase-caption">
+                              <h2>Inscreva-se<br>na nossa newsletter</h2>
+                              <p>Fique por Dentro !</p>
+                          </div>
+                      </div>
+                          <div class="col-xl-5 col-lg-5 col-md-6 ">
+                          <div class="inscrevase-subscribe">
+                              <form action="#">
+                                  <input type="email" placeholder="Digite seu email">
+                                  <button>Inscreva-se</button>
+                              </form>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <!-- man Shape -->
+              <div class="man-shape">
+                  <img src="img/collection/latest-man.png" alt="">
+              </div>
+          </div>
+      </div>
+      <!-- inscrevase-subscribe fim -->
+
+      
+      <!-- ------footer---------- -->
+           <div class="footer-copyright text-center py-3 footer-login">© 2020 Copyright:Pety Party| Pety Party S.A. 
+              CNPJ 12.345.678./0001-00 Rua do pet-Vila 
+              dos Animais,SP | CEP 00000-000
+          </div>
+      </div>
+
+</body>  
            
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>

@@ -3,7 +3,7 @@
 
 }
 
-.body {
+.home {
     margin: 0;
     padding: 0;
     overflow-x: hidden;  
@@ -31,11 +31,6 @@ p {
   line-height: 30px;
   margin-bottom: 15px;
   font-weight: normal;
-}
-a:focus,
-a:hover
- {
-  text-decoration: none;
 }
 
 /***************Sub_header****************/
@@ -268,11 +263,11 @@ a:hover
 
 /**************** banner part ****************/
 .banner_part {
-  height: 450px;
+  height: 420px;
   display: flex;
   align-items: center;
   position: relative;
-  background-image: url("img/banner_bg.png");
+  background-image: url("../img/banner_bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -282,7 +277,7 @@ a:hover
 
 @media (max-width: 576px) {
   .banner_part {
-    height: 280px;
+    height: 260px;
     background-position:right ;
   }
 }
@@ -462,7 +457,7 @@ a:hover
     display: flex;
     align-items: center;
     position: relative;
-    background-image: url("img/about2.jpg");
+    background-image: url("../img/about2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -488,7 +483,7 @@ a:hover
     display: flex;
     align-items: center;
     position: relative;
-    background-image: url("img/about2.jpg");
+    background-image: url("../img/about2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -509,7 +504,7 @@ a:hover
     display: flex;
     align-items: center;
     position: relative;
-    background-image: url("img/about2.jpg");
+    background-image: url("../img/about2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -534,7 +529,7 @@ a:hover
   display: flex;
   align-items: center;
   position: relative;
-  background-image: url("img/about2.jpg");
+  background-image: url("../img/about2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1137,8 +1132,6 @@ a:hover
 .text-white a {
 	color: #fff;
 }
-
-
 
 
 
