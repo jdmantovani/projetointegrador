@@ -215,10 +215,10 @@ p {
 
 /* =======header======= */
 .navbar{
-    position: sticky;
     top: 0;
     z-index: 1; 
     font-size: 0.8rem;
+    position: -webkit-sticky;
 }
 @media  (min-width: 996px){
   .collapse{  
@@ -451,7 +451,7 @@ p {
 
 /* ********responsive-about********* */
 @media (max-width:320px){
-  .sobre-nos-img{    
+  .about-img{    
     height: 300px !important;
     width: 100%;
     display: flex;
@@ -463,7 +463,7 @@ p {
     background-size: cover;
     /* background-position: bottom; */
   }
-  .sobre-nos-text h3{
+  .about-text h3{
     line-height: 58px;
     margin: 25px 0;
     font-size: 28px!important;
@@ -473,12 +473,12 @@ p {
 }
 @media only screen and (min-width: 322px) and (max-width: 411px){
 
-  .sobre-nos{
+  .about{
     margin: auto;
-    /* margin-top: 6em;
-    margin-bottom: 3rem; */
+    margin-top: 6em;
+    margin-bottom: 3rem;
   }
-  .sobre-nos-img{    
+  .about-img{  
     height: 400px!important;
     display: flex;
     align-items: center;
@@ -490,7 +490,7 @@ p {
     /* background-position: bottom; */
   }
   
-  .sobre-nos-text h3{
+  .about-text h3{
     line-height: 58px;
     margin: 25px 0;
     font-size: 30px!important;
@@ -499,7 +499,7 @@ p {
   }
 }
 @media only screen and (min-width: 411px) and (max-width: 768px){
-  .sobre-nos-img{    
+  .about-img{    
     height: 350px!important;
     display: flex;
     align-items: center;
@@ -510,7 +510,7 @@ p {
     background-size: cover;
     /* background-position: bottom; */
   }
-  .sobre-nos-text h3{
+  .about-text h3{
     line-height: 58px;
     margin: 25px 0;
     font-size: 30px!important;
@@ -520,11 +520,11 @@ p {
 
 }
 /*************about************/
-.sobre-nos{
+.about{
   margin-top: 6em;
   margin-bottom: 3rem;
 }
-.sobre-nos-img{    
+.about-img{    
   height: 500px;
   display: flex;
   align-items: center;
@@ -536,7 +536,7 @@ p {
   /* background-position: bottom; */
 }
 
-.sobre-nos-text h3{
+.about-text h3{
   line-height: 58px;
   margin: 25px 0;
   font-size: 36px;

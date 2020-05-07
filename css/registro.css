@@ -6,7 +6,6 @@
 .page-content {
 	width: 100%;
 	margin:  0 auto;
-    background-image: -webkit-linear-gradient( 136deg, rgb(0,0,70) 0%, rgb(28,181,224) 100%);
 	display: flex;
 	display: -webkit-flex;
 	justify-content: center;
@@ -14,10 +13,11 @@
 }
 .form-v6-content  {
 	background: #fff;
-	width: 930px;
+	width: 900px;
 	border-radius: 8px;
 	-webkit-border-radius: 8px;
-	margin: 180px 0;
+	margin: 50px 0;
+	margin-bottom: 20px;
 	font-family: 'Nunito', sans-serif;
 	color: #fff;
 	font-weight: 700;
@@ -27,6 +27,7 @@
 }
 .form-v6-content .form-left {
 	margin-bottom: -6px;
+	
 }
 .form-v6-content .form-left img {
 	border-top-left-radius: 8px;
@@ -90,6 +91,36 @@
 
 
 /* Responsive */
+@media screen and (max-width: 1024px) {
+	.form-v6-content {
+		margin: 120px 20px;
+		flex-direction:  row;
+
+	}
+	.form-v6-content .form-left {
+		width: 60%;
+	}
+	.form-v6-content .form-left img {
+		margin-top: 25px;
+		width: 100%;
+		height: 80%;
+
+		border-bottom-left-radius: 0px;
+	    border-top-right-radius: 8px;
+	}
+	.form-v6-content .form-detail {
+		padding: 20px 20px 30px 70px;
+	    width: auto;
+	}
+	.form-v6-content .form-detail .form-row input {
+		width: 96%;
+	}
+	.form-v6-content .form-detail .register {
+		margin-bottom: 80px;
+	}
+}
+
+
 @media screen and (max-width: 991px) {
 	.form-v6-content {
 		margin: 150px 20px;
@@ -115,6 +146,11 @@
 		margin-bottom: 80px;
 	}
 }
+@media screen and (max-width: 575px) and (max-width: 767px){
+
+}
+
+
 @media screen and (max-width: 767px) {
 	.form-v6-content .form-detail .form-row input {
 		width: 94%;

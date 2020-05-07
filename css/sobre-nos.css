@@ -1,0 +1,211 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    
+}
+
+.sobre-nos{
+    margin: 0;
+    padding: 0; 
+}
+/******* sobre-nos-patyParty  Inicio *****/
+.sobre-nos-patyParty{
+    height: 625px;
+    background-color: white;    
+}
+.sobre-nos-patyParty h3{
+    font-size: 36px;
+    color: black;
+    line-height: 1,0;
+    font-weight: 600;    
+    margin-left: 20px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.sobre-nos-patyParty p{
+    margin-left:20px;
+    margin-right:20px;
+    color: black;
+    font-weight: 400;
+    text-align: left;
+}
+/******* sobre-nos-patyParty  Fim *****/
+
+ /******* sobre-nos-petyParty-história  Inicio *****/   
+.sobre-nos-petyParty-história{
+    height: 625px;
+    background-color: #fa8000;   
+}
+.sobre-nos-petyParty-história h3{
+    font-size: 36px;
+    color: white;
+    line-height: 1,0;
+    font-weight: 600; 
+    margin-left: 20px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+
+}
+.sobre-nos-petyParty-história p{
+    margin-left:20px;
+    margin-right:20px;
+    color: black;
+    font-weight: 400;
+    text-align: left;
+}
+
+ /******* sobre-nos-petyParty-história  Fim *****/ 
+
+ 
+/******* sobre-nos section Inicio *****/
+.sobre-nos-section{
+    background-color:#f5f5f5;
+    height: auto;
+}
+/******* section-missao  Inicio *****/
+.section-missao{
+    background-color:#f5f5f5;
+    text-align: center;
+    height:auto;  
+}
+
+.section-titulo-missao{
+    font-size:36px ;
+    color: black;
+    line-height: 1,0;
+    font-weight: 600;
+    
+}
+.section-texto-missao{
+    margin-left:20px;
+    margin-right:20px;    
+    color: black;
+    font-weight: 400;
+    text-align: left;
+
+}
+.section-missao p img{
+    width: 50px;
+    margin-top: 15px;
+}
+/******* section-missao  fim *****/
+
+/******* section-visao  Inicio *****/
+.section-visao{
+    text-align: center;
+    background-color:#fa8000;
+    height:auto;
+}
+
+.section-titulo-visao{
+    font-size:36px ;
+    color: black;
+    line-height: 1,0;
+    font-weight: 600;
+}
+.section-texto-visao{
+    margin-left:20px;
+    margin-right:20px;
+    color: white;
+    font-weight: 400;
+    text-align: left;
+}
+.section-visao p img{
+    width: 50px;
+    margin-top: 15px;
+}
+
+/******* section-missao  Fim *****/
+/******* section-valores  Inicio *****/
+.section-valores{
+    background-color:#f5f5f5;
+    text-align: center;
+    height:auto;
+}
+.section-titulo-valores{
+    font-size:36px ;
+    color: black;
+    line-height: 1,0;
+    font-weight: 600;
+}
+.section-texto-valores{
+    margin-left:20px;
+    margin-right:20px;
+    color: black;
+    font-weight: 400;
+    text-align: left;
+
+}
+.section-valores p img{
+    width: 50px;
+    margin-top: 15px;
+}
+
+
+/******* section-missao  Inicio *****/
+
+/******* espaco  Inicio *****/
+
+.espaco-section{
+    background-color:#f5f5f5;
+    height: 75px;
+    margin: 0;
+    padding: 0;
+
+}
+.espaco-footer{
+    background-color:#f5f5f5;
+    height: 75px;
+    margin: 0;
+    padding: 0; 
+
+}
+/******* espaco  Inicio *****/
+.sobre-nos-footer{
+    background-color:#FDF5E6;
+   
+}
+
+/******* sobre-nos section Fim *****/
+
+@media (min-width: 320px) and (max-width:574px){
+    .section-missao p img{
+        width: 50px;
+        margin-top: 15px;
+    }
+    .section-visao p img{
+        width: 50px;
+        margin-top: 90px;
+    }
+    .section-valores p img{
+        width: 50px;
+        margin-top: 90px;
+    }
+
+}
+@media (min-width: 1024px){
+
+    .section-missao p img{
+        width: 50px;
+        margin-top: 90px;
+
+    }
+    .section-visao p img{
+        width: 50px;
+        margin-top: 90px;
+    }
+    .section-valores p img{
+        width: 50px;
+        margin-top: 90px;
+    }
+
+}
+
+
+
+
+
+
+
