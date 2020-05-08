@@ -285,16 +285,14 @@ p {
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .banner_part {
     height: 350px;
-    /* background-color: #FEDEE1; */
-    /* background-image: none; */
+
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .banner_part {
     height: 500px;
-    /* background-color: #FEDEE1; */
-    /* background-image: none; */
+  
     background-position: 70% ;
   }
 }
